@@ -22,7 +22,6 @@ import {
   threejs,
   dashboard,
   ecommerce,
-  generative_ai,
   mht_ecommerce,
 } from "../assets";
 
@@ -239,31 +238,6 @@ const projects = [
     ],
     image: ecommerce,
     source_code_link: "https://github.com/jeremygagner/e-commerce",
-  },
-  {
-    name: "AI Generator",
-    description:
-      "This app uses Dall-E's API to reframe the generative AI experience.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "vite",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "dall-e",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: generative_ai,
-    source_code_link: "https://github.com/jeremygagner/generative_ai",
   },
   {
     name: "Massothérapie Hélène Thibault",
