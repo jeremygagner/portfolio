@@ -22,6 +22,7 @@ import {
   threejs,
   dashboard,
   ecommerce,
+  generativeai,
   mht_ecommerce,
 } from "../assets";
 
@@ -194,6 +195,35 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Massothérapie Hélène Thibault",
+    description:
+      "This app is a prototype for an online service appointment system. It was intended to be used, but never saw the light of day.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: mht_ecommerce,
+    source_code_link: "https://github.com/jeremygagner/massotherapie_helene_thibault",
+  },
+  {
     name: "Dashboard",
     description:
       "A frontend-only project dashboard with fully functional charts and boards.",
@@ -240,33 +270,25 @@ const projects = [
     source_code_link: "https://github.com/jeremygagner/e-commerce",
   },
   {
-    name: "Massothérapie Hélène Thibault",
+    name: "Generative AI",
     description:
-      "This app is a prototype for an online service appointment system. It was intended to be used, but never saw the light of day.",
+      "This project combines a React front-end and a Node.js backend to bring a fresh new interface for Dall-E's generative AI power.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "material-ui",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "stripe",
+        name: "dall-e",
         color: "orange-text-gradient",
       },
     ],
-    image: mht_ecommerce,
-    source_code_link: "https://github.com/jeremygagner/massotherapie_helene_thibault",
+    image: generativeai,
+    source_code_link: "https://github.com/jeremygagner/generativeai",
   },
 ];
 
