@@ -29,7 +29,6 @@ import tesla from "./company/tesla.png";
 import dashboard from "./dashboard.png";
 import ecommerce from "./ecommerce.png";
 import generativeai from "./generative_ai.png";
-import mht_ecommerce from "./mht_ecommerce.png";
 
 export {
   logo,
@@ -60,5 +59,4 @@ export {
   dashboard,
   ecommerce,
   generativeai,
-  mht_ecommerce,
 };

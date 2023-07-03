@@ -23,7 +23,6 @@ import {
   dashboard,
   ecommerce,
   generativeai,
-  mht_ecommerce,
 } from "../assets";
 
 export const navLinks = [
@@ -194,35 +193,6 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Massothérapie Hélène Thibault",
-    description:
-      "This app is a prototype for an online service appointment system. It was intended to be used, but never saw the light of day.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "stripe",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: mht_ecommerce,
-    source_code_link: "https://github.com/jeremygagner/massotherapie_helene_thibault",
-  },
   {
     name: "Dashboard",
     description:
