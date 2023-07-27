@@ -23,6 +23,7 @@ import {
   dashboard,
   ecommerce,
   generativeai,
+  realtech,
 } from "../assets";
 
 export const navLinks = [
@@ -259,6 +260,35 @@ const projects = [
     ],
     image: generativeai,
     source_code_link: "https://github.com/jeremygagner/generativeai",
+  },
+  {
+    name: "Realtech",
+    description:
+      "This project combines a React front-end and a Node.js backend to bring a fresh new interface for Dall-E's generative AI power.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "locofy",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: realtech,
+    source_code_link: "https://github.com/jeremygagner/realtech",
   },
 ];
 

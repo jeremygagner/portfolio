@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import dashboard from "./dashboard.png";
 import ecommerce from "./ecommerce.png";
 import generativeai from "./generative_ai.png";
+import realtech from "./realtech.png";
 
 export {
   logo,
@@ -59,4 +60,5 @@ export {
   dashboard,
   ecommerce,
   generativeai,
+  realtech,
 };
