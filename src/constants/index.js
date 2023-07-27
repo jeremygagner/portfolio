@@ -264,7 +264,7 @@ const projects = [
   {
     name: "Realtech",
     description:
-      "This project combines a React front-end and a Node.js backend to bring a fresh new interface for Dall-E's generative AI power.",
+      "This project is generated from a Figma design using Locofy and Supabase.",
     tags: [
       {
         name: "react",
